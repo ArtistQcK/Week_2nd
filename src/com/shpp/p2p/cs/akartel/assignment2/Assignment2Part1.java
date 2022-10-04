@@ -3,7 +3,7 @@ package com.shpp.p2p.cs.akartel.assignment2;
 import com.shpp.cs.a.console.TextProgram;
 
 /**
- * class perform quadratic equation
+ * Assignment2Part1 class perform quadratic equation
  */
 public class Assignment2Part1 extends TextProgram {
 

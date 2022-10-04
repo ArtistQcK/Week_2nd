@@ -7,7 +7,8 @@ import com.shpp.cs.a.graphics.WindowProgram;
 import java.awt.*;
 
 /**
- * create optical illusion by : white rectangle over 4 black circles in the corners of window
+ * Assignment2Part2 create optical illusion цшер : white rectangle
+ * over 4 black circles in the corners of window
  */
 public class Assignment2Part2 extends WindowProgram {
     public static final int APPLICATION_WIDTH = 500;
@@ -16,6 +17,8 @@ public class Assignment2Part2 extends WindowProgram {
 
     /**
      * build white rectangle over 4 black circles in the corners of window
+     * circles and rectangle size relative to (APP-width or APP-height)
+     * considering witch of them is less
      */
     @Override
     public void run() {

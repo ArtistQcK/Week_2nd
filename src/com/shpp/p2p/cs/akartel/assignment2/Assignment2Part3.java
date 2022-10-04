@@ -4,7 +4,7 @@ import acm.graphics.GOval;
 import com.shpp.cs.a.graphics.WindowProgram;
 
 /**
- * draw cat paw prints
+ * Assignment2Part3 draw cat paw prints using constants in task
  */
 public class Assignment2Part3 extends WindowProgram {
 

@@ -8,7 +8,7 @@ import java.awt.*;
 import java.util.Random;
 
 /**
- * draws 3-colored flag with label of some imagine country
+ * Assignment2Part4 draws 3-colored flag with label of some imagine country
  */
 public class Assignment2Part4 extends WindowProgram {
     public static final int APPLICATION_WIDTH = 500;

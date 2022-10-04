@@ -4,7 +4,7 @@ import acm.graphics.GRect;
 import com.shpp.cs.a.graphics.WindowProgram;
 
 /**
- * create optical illusion - matrix with black boxes and some spacing between
+ * Assignment2Part5 creates optical illusion - matrix with black boxes and some spacing between
  */
 public class Assignment2Part5 extends WindowProgram {
     public static final int APPLICATION_WIDTH = 500;

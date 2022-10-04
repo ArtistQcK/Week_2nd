@@ -1,13 +1,12 @@
 package com.shpp.p2p.cs.akartel.assignment2;
 
-import acm.graphics.GLine;
 import acm.graphics.GOval;
 import com.shpp.cs.a.graphics.WindowProgram;
 
 import java.awt.*;
 
 /**
- * caterpillar creation
+ * Assignment2Part6 create caterpillar
  */
 public class Assignment2Part6 extends WindowProgram {
     public static final int APPLICATION_WIDTH = 500;
@@ -24,14 +23,13 @@ public class Assignment2Part6 extends WindowProgram {
     public static final double START_X_POSITION = SEGMENT_QUANTITY / 2 * SEGMENT_SHIFT;
 
     /**
-     * build caterpillar with segments , centered in the middle
+     * build caterpillar with oval segments , centered in the middle
      */
     @Override
     public void run() {
         for (int i = 0; i < SEGMENT_QUANTITY; i++) {
             segment(getWidth() / 2.0 - START_X_POSITION - SEGMENT_SHIFT / 2 + SEGMENT_SHIFT * i,
                     getHeight() / 2d - SEGMENT_SHIFT - SEGMENT_SHIFT / 3 * (i % 2));
-            System.out.println(i%2);
         }
     }
 
